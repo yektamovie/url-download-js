@@ -7,11 +7,9 @@ function download()
 	}
 	else
 	{
-      var a = document.createElement('a');
-      var linkText = document.createTextNode("download!");
-      a.appendChild(linkText);
-      a.title = "download!";
+      var a = document.getElementById('m');
       a.href = qry;
-      document.body.appendChild(a);
+      a.innerHTML="download";
+      
 	}
 }
