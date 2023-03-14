@@ -1,4 +1,4 @@
-function play()
+function download()
 {
 	var qry=document.getElementById("vid").value;
 	if(qry==null)
